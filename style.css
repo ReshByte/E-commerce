@@ -1,0 +1,138 @@
+body{
+    max-width: 1270px;
+    background-color: rgb(153, 149, 219);
+    margin:0 auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black
+
+}
+
+nav ul a:hover{
+    color: white;
+}
+
+nav ul li{
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 0 7px;
+    transition: 0.3s ease-in-out;
+}
+
+
+nav ul li:hover {
+    background-color: purple;
+    border: 2px solid #000;
+}
+
+.hero-container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #e4cce2;
+}
+
+.hero-container{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e4cce2;
+    background-image: url('bg2.jpg');
+    border: 2px solid #e4cce2;
+    padding: 10px;
+    font-size: 1.5em;
+    gap: 40px;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-top: 10rem;
+}
+
+
+.hero-container button{
+    font-size: 25px;
+    padding: 0 35px;
+    color: purple;
+    border: 2px solid purple;
+    background-color: #e4cce2;
+    border-radius: 25px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.hero-container button:hover{
+    color: white;
+    background-color: purple;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+.card img{
+   height: 250px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card{
+  width: 250px;
+  display: block;
+  
+  border: 3px solid purple;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.2em;
+  color: black;
+  font-weight: 900;
+  box-shadow: 5px 5px 5px purple;
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover{
+    box-shadow:15px 15px 25px purple ;
+}
+
+.card button{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 20px;
+    color: purple;
+    border: 2px solid purple;
+    background-color: #e4cce2;
+    border-radius: 25px;
+    transition: 0.3s ease-in-out;
+      cursor: pointer;
+}
+
+.card button:hover {
+    color: white;
+    background-color: purple;
+    border: 2px solid black;
+  
+    
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card-section{
+    text-align: center;
+    color: rgb(50, 27, 50);
+    font-size: 20px;
+    margin-top: 20rem;
+ 
+}
